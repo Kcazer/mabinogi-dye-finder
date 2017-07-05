@@ -1,0 +1,129 @@
+body {
+    font: normal 14px/1.5em sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+form {
+    width: 16em;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 0.5em;
+}
+
+label {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    padding: 0 0.1em 0 0;
+    height: 1.5em;
+    width: 5em;
+    text-align: right;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+select, input[type="text"], input[type="color"] {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    height: 1.5em;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    line-height: 1.5em;
+    border-bottom: 1px solid #CCC;
+}
+
+input[type="text"] {
+    padding: 0 4px;
+}
+
+input[type="color"] {
+    cursor: pointer;
+    border: 1px solid #CCC;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+select {
+    width: 10em;
+}
+
+input[type="text"] {
+    width: 7em;
+}
+
+input[type="color"] {
+    width: 3em;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th {
+    padding: 4px;
+    border-bottom: 2px solid #CCC;
+    background: #EEE;
+}
+
+td {
+    padding: 4px;
+    vertical-align: middle;
+    border-bottom: 1px solid #CCC;
+}
+
+td div {
+    box-sizing: border-box;
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid #AAA;
+}
+
+td:first-child {
+    padding-right: 0;
+}
+
+td:first-child div {
+    border-right: none;
+}
+
+td:first-child + td {
+    padding-left: 0;
+}
+
+td:first-child + td div {
+    border-left: none;
+}
+
+tr:hover {
+    background: #F7F7F7;
+}
